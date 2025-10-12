@@ -7,32 +7,30 @@
 
 ---
 
-📌 About Me
+## 📌 About Me
 
 - 🔭 I’m currently working at <strong>BeamNG.tech</strong> on software development & simulation systems  
-- 🌱 I’m exploring advanced topics in <strong>robotics (ROS2)</strong>, <strong>game physics</strong>, and <strong>autonomous systems</strong>  
-- 🤝 I’m open to collaboration on <strong>ROS2, C++, Lua, OpenGL, Simulators</strong>  
-- 💬 Ask me about robotics, simulations, C++, and software architecture  
-- 📫 Reach me here → [abdelrahman.elsaid.elsawy@gmail.com](mailto:abdelrahman.elsaid.elsawy@gmail.com)  
-- 🌐 Portfolio/Links → https://linktr.ee/abdelrahman_elsaid_elsawy  
-
+- 🌱 Exploring robotics (ROS2), game physics, vehicle simulations & automation  
+- 🤝 Open to collaboration on ROS2, C++, Lua, OpenGL, simulator pipelines  
+- 💬 Ask me about robotics, simulations, C++, systems engineering  
+- 📫 Reach me → [a.sawy95@gmail.com](mailto:a.sawy95@gmail.com)
+- 🔗 LinkedIn → [linkedin.com/in/abdelrahman-elsaid-elsawy](https://www.linkedin.com/in/abdelrahman-elsaid-elsawy)  
+- 🌐 Linktree → https://linktr.ee/abdelrahman_elsaid_elsawy  
 ---
 
-🏆 GitHub Trophy Showcase
+## 🏆 GitHub Trophy Showcase
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=AbdelrahmanElsaidElsawy&theme=onedark" alt="AbdelrahmanElsaidElsawy trophies" />
-  </a>
+  <img src="https://github-profile-trophy.vercel.app/?username=AbdelrahmanElsaidElsawy&theme=onedark" alt="Trophies" />
 </p>
 
 ---
 
-💻 GitHub Stats
+## 💻 GitHub Stats
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=AbdelrahmanElsaidElsawy&count_private=true&theme=buefy&show_icons=true" alt="GitHub Stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdelrahmanElsaidElsawy&layout=compact&theme=buefy" alt="Top Languages" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=AbdelrahmanElsaidElsawy&count_private=true&theme=buefy&show_icons=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdelrahmanElsaidElsawy&layout=compact&theme=buefy" />
 </p>
 
 <p align="center">
@@ -41,21 +39,7 @@
 
 ---
 
-🔗 Connect with Me
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/abdelrahman-elsaid-elsawy/" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" width="40" height="40" />
-  </a>
-  <a href="https://linktr.ee/abdelrahman_elsaid_elsawy" target="_blank">
-    <img src="https://seeklogo.com/images/L/linktree-logo-9E3E23661E-seeklogo.com.png" alt="Linktree" width="35" height="35" />
-  </a>  
-  <!-- Add more social icons as needed -->
-</p>
-
----
-
-🛠️ Tech Stack & Tools
+## 🛠️ Tech Stack & Tools
 
 <p align="left">
   <a href="https://www.ros.org/" target="_blank"><img src="https://assets.skyfilabs.com/images/blog/10-simple-ros-projects-for-beginners.webp" alt="ROS1" width="80" height="40" /></a>
@@ -72,20 +56,97 @@
 
 ---
 
-📚 Additional Languages & Tech (Optional Badge Style)
+## 📚 Additional Languages & Tech
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
-  <img src="https://img.shields.io/badge/C%2B%2B-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" alt="Lua" />
-  <img src="https://img.shields.io/badge/OpenGL-%23FFFFFF.svg?style=for-the-badge&logo=opengl" alt="OpenGL" />
-  <img src="https://img.shields.io/badge/Linux-%23007500.svg?style=for-the-badge&logo=linux&logoColor=white" alt="Linux" />
+  <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
+  <img src="https://img.shields.io/badge/C%2B%2B-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenGL-%23FFFFFF.svg?style=for-the-badge&logo=opengl" />
+  <img src="https://img.shields.io/badge/Linux-%23007500.svg?style=for-the-badge&logo=linux&logoColor=white" />
 </p>
 
 ---
 
-📖 Fun Fact
+## 📋 Resume
 
-- I enjoy simulating real-world physics inside digital engines and combining it with machine perception 😊
+### 🧪 Research Software Engineer – BeamNG GmbH  
+📍 Remote · Nov 2021 – Present  
+- Integrated BeamNG.Tech with ROS/ROS2, MATLAB, and Simulink  
+- Developed API bridges for real-time simulation and automation  
+- Performed QA testing using C++, Python, Lua  
+- Provided technical customer support via Zendesk
 
-Happy coding! 🚀
+### 🤖 Mechatronics Systems Engineer – Ideasparq Robotics  
+📍 Kuala Lumpur, Malaysia · Feb 2020 – Jul 2021  
+- Built ROS-based control systems  
+- Developed sensor fusion and autonomous navigation systems  
+- Used Gazebo, Rviz, Docker for dev/testing
+
+### 🚚 Autonomous Robotics Engineer – ENDSTRUCT  
+📍 GOVTECH contract · Jun 2019 – Jan 2020  
+- Developed ROS navigation system  
+- Sensor health monitoring, delivery robot diagnostics
+
+### 🔬 Research Assistant – Autonomous Vehicle Lab  
+📍 University Malaysia Pahang · Sep 2019 – Dec 2019  
+- Developed 3D LiDAR signal pipeline  
+- Built middleware layer with ROS
+
+### 🧪 Internship – University Malaysia Pahang  
+📍 Jun 2018 – Sep 2018  
+- Worked on TurtleBot3, ROS, and simulation
+
+---
+
+## 🎓 Education
+
+🎓 Bachelor of Engineering – Mechatronics Engineering  
+UMPSA Universiti Malaysia Pahang Al-Sultan Abdullah (2016 – 2020)
+
+---
+
+## 🧠 Skills
+
+- 💻 Languages: C++, Python, Lua, XML, JSON  
+- 📦 ROS: ROS1, ROS2, SLAM, TF2, Navigation  
+- 🛠️ Tools: Gazebo, RViz, Docker, Git, MATLAB, Simulink  
+- 🛰️ Sensors: LiDAR, IMU, Ultrasonic  
+- 👨‍💻 Hardware: Arduino, ESP32, Raspberry Pi, SPI & UART  
+- 🔧 Extra: Catia, PCB, soldering, prototyping
+
+---
+
+## 🌍 Languages
+
+- 🗣️ Arabic: Native  
+- 🗣️ English: Professional  
+- 🗣️ Turkish: Elementary  
+- 🗣️ German: Elementary  
+- 🗣️ Malay: Limited
+
+---
+
+## 📄 Publications
+
+- 🧠 The Flexural Strength Prediction of Porous Cu-Sn-Ti Composites via ANN  
+  📅 RiTA 2018 Conference  
+  🔗 DOI: [10.1007/978-981-13-8323-6_34](https://link.springer.com/chapter/10.1007/978-981-13-8323-6_34)
+
+---
+
+## 📚 Courses & Workshops
+
+- Lua Scripting – Udemy (2023)  
+- Learn ROS2 as a ROS1 Developer – Udemy (2022)  
+- Azure DevOps — Coursera (2022)  
+- Command Line (Linux) — Coursera  
+- Data Analysis, SQL → Manara, Google  
+- AWS Cloud Essentials – AWS  
+- Python Scripting / DevOps Series – LearnQuest  
+- Arduino, CAM workshops – IIUM, Institution of Engineers Malaysia  
+- German A1 — Busuu
+
+---
+
+📌 Last Updated: ![date](https://img.shields.io/date/today?color=00bfff)
