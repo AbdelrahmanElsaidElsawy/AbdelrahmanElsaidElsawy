@@ -5,6 +5,11 @@
   <img src="https://komarev.com/ghpvc/?username=AbdelrahmanElsaidElsawy&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
+<p align="center">
+  <a href="https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV.pdf" target="_blank"><img alt="View CV" src="https://img.shields.io/badge/View_CV-1abc9c?style=for-the-badge&logo=book&logoColor=white"/></a>
+  <a href="https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV.pdf" target="_blank"><img alt="Download CV" src="https://img.shields.io/badge/Download_CV-2C2D72?style=for-the-badge&logo=download&logoColor=white"/></a>
+</p>
+
 ---
 
 ## 📌 About Me
@@ -136,15 +141,38 @@ UMPSA Universiti Malaysia Pahang Al-Sultan Abdullah (2016 – 2020)
 
 ---
 
-## 📚 Courses & Workshops
+## 📚 Certificates, Courses & Workshops
 
-- Lua Scripting – Udemy (2023)  
-- Learn ROS2 as a ROS1 Developer – Udemy (2022)  
-- Azure DevOps — Coursera (2022)  
-- Command Line (Linux) — Coursera  
-- Data Analysis, SQL → Manara, Google  
-- AWS Cloud Essentials – AWS  
-- Python Scripting / DevOps Series – LearnQuest  
-- Arduino, CAM workshops – IIUM, Institution of Engineers Malaysia  
-- German A1 — Busuu
+- Level C1 in English — Busuu (May 2025)  
+- Level A1 in German Language — Busuu (Nov 2024)  
+- Relational Databases with SQL — Manara (Nov 2024)  
+- Data Analysis Basics Using Google Sheets — Coursera (Oct 2024)  
+- Foundations of Databases — Manara (Oct 2024)  
+- Lua Scripting: Master Complete Lua Programming from Scratch — Udemy (Nov 2023)  
+- Data Protection Basic Training (EU) — Mitarbeiterschule GmbH (Sep 2023)  
+- Learn ROS2 as a ROS1 Developer and Migrate Your ROS Projects — Udemy (Nov 2022)  
+- Level 2: Simulation & Hardware Implementation for SLAM — Udemy (Nov 2022)  
+- Getting Started with Azure DevOps Boards — Coursera (Oct 2022)  
+- Command Line in Linux — Coursera (Sep 2022)  
+- Arduino Workshop — Core Electronics (Sep 2022)  
+- Open-Source Software Development Methods — The Linux Foundation (Oct 2021)  
+- Python Scripting for DevOps Specialization — LearnQuest (Sep 2021)  
+- Python Scripting: Files, Inheritance, and Databases — LearnQuest (Sep 2021)  
+- Web Application Technologies and Django — University of Michigan (Sep 2021)  
+- AWS Cloud Technical Essentials — AWS (Aug 2021)  
+- DevOps and Build Automation with Python — LearnQuest (Aug 2021)  
+- Python Scripting: Dates, Classes, and Collections — LearnQuest (Aug 2021)  
+- Configuration Management and the Cloud — Google (Aug 2021)  
+- Introduction to Git and GitHub — Google (Jul 2021)  
+- Technical Support Fundamentals — Google (Jul 2021)  
+- Troubleshooting and Debugging Techniques — Google (Jul 2021)  
+- Using Python to Interact with the Operating System — Google (Jun 2021)  
+- Crash Course on Python — Google (May 2021)  
+- Malaysia Autonomous Vehicle Challenge (MAVeC'19) — MARii (Nov 2018)  
+- International Conference of Robotics, Intelligence and Applications (RiTA) 2018 — KIAST SG (2018)  
+- Boundless Innovation Week — HPMM (Aug 2018)  
+- CAM Computer-Aided Manufacturing Workshop — The Institution of Engineers, Malaysia (Nov 2017)  
+- IEM MATLAB Workshop — The Institution of Engineers, Malaysia (Oct 2017)  
+- Arduino for Beginners Workshop — SPARKTECH Team at IIUM (Nov 2016)  
+- Online Database Class: SCOPUS — University Malaysia Pahang (Nov 2016)  
 

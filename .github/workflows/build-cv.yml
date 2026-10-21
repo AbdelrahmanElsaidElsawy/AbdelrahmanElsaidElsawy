@@ -1,0 +1,47 @@
+name: Build CV
+
+# Recompiles cv/cv.tex into cv/Abdelrahman_Elsaid_Elsawy_CV.pdf whenever the
+# LaTeX source changes, and commits the PDF back to this branch so GitHub
+# Pages serves it at:
+# https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV.pdf
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'cv/**/*.tex'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compile CV
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv/cv.tex
+          latexmk_use_lualatex: false
+
+      - name: Publish PDF
+        run: |
+          set -e
+          pdf=$(find . -name cv.pdf -print -quit)
+          if [ -z "$pdf" ]; then
+            echo "cv.pdf not produced by LaTeX build" >&2
+            exit 1
+          fi
+          mv "$pdf" cv/Abdelrahman_Elsaid_Elsawy_CV.pdf
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cv/Abdelrahman_Elsaid_Elsawy_CV.pdf
+          if git diff --staged --quiet; then
+            echo "PDF unchanged"
+          else
+            git commit -m "Build CV PDF [skip ci]"
+            git push
+          fi

@@ -1,0 +1,205 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[margin=0.65in]{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{qrcode}
+
+%====================
+% Color Theme
+%====================
+\definecolor{PrimaryColor}{HTML}{1F4E79}
+\definecolor{SecondaryColor}{HTML}{4B5563}
+
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=*, noitemsep, topsep=2pt}
+
+\titleformat{\section}
+  {\large\bfseries\color{PrimaryColor}}
+  {}
+  {0em}
+  {}
+  [\color{SecondaryColor}\titlerule]
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=PrimaryColor,
+    linkcolor=PrimaryColor
+}
+
+\urlstyle{same}
+
+\begin{document}
+
+%====================
+% Header with QR
+%====================
+\begin{minipage}[t]{0.78\textwidth}
+    {\LARGE \textbf{\color{PrimaryColor}Abdelrahman Elsaid Elsawy}}\\
+    {\color{SecondaryColor}Robotics and Vehicle Simulation Engineer}\\
+    ROS/ROS2 \textbar{} BeamNG.tech \textbar{} Simulation Integration \textbar{} API Bridges \textbar{} Automated QA \textbar{} Autonomous Systems\\
+    Email: \href{mailto:abdelrahman.elsaid.elsawy@gmail.com}{abdelrahman.elsaid.elsawy@gmail.com}\\
+    LinkedIn: \href{https://www.linkedin.com/in/abdelrahman-elsaid-elsawy}{linkedin.com/in/abdelrahman-elsaid-elsawy}\\
+    Phone/WhatsApp: \href{https://wa.me/905365231899}{+90 536 523 1899}
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.18\textwidth}
+    \raggedleft
+    \qrcode[height=1.7cm]{https://www.linkedin.com/in/abdelrahman-elsaid-elsawy}\\
+    {\scriptsize LinkedIn QR}
+\end{minipage}
+
+
+
+
+%====================
+\section*{Summary}
+
+Robotics and software engineer with 6+ years of experience in ROS/ROS2, system integration, autonomous systems, and high-fidelity vehicle simulation. Specialized in connecting simulation platforms with robotics and engineering toolchains, including BeamNG.tech, ROS/ROS2, MATLAB, and Simulink. Experienced in API bridge development, real-time simulation control, data acquisition, automated QA testing, regression analysis, issue investigation, technical support, and customer-facing engineering for B2B simulation workflows.
+
+%====================
+\section*{Core Skills}
+
+\textbf{\color{PrimaryColor}Robotics:} ROS, ROS2, SLAM, MoveIt, Gazebo, RViz, autonomous navigation, sensor fusion\\
+\textbf{\color{PrimaryColor}Simulation:} BeamNG.tech, vehicle simulation, high-fidelity simulation, simulation workflows\\
+\textbf{\color{PrimaryColor}Programming:} C, C++, Python, Lua, SQL, Bash\\
+\textbf{\color{PrimaryColor}Integration:} API bridges, system integration, real-time simulation control, data acquisition, MATLAB, Simulink\\
+\textbf{\color{PrimaryColor}Testing and QA:} automated QA testing, regression testing, bug reproduction, root-cause analysis, issue investigation\\
+\textbf{\color{PrimaryColor}Tools:} Git, Docker, Ubuntu, Zendesk, API documentation
+
+%====================
+\section*{Professional Experience}
+
+\textbf{\color{PrimaryColor}Research Software Engineer} \hfill Nov 2021 -- Present\\
+\textbf{BeamNG GmbH} \hfill Remote
+
+\begin{itemize}
+    \item Integrated BeamNG.tech with ROS/ROS2, MATLAB, and Simulink for high-fidelity vehicle simulation, robotics workflows, and autonomous systems development.
+    \item Developed and maintained API bridges for real-time simulation control, vehicle interaction, data acquisition, and external tool integration.
+    \item Performed automated QA testing, regression analysis, and issue investigation using C++, Python, and Lua to improve engine stability, simulation reliability, and integration quality.
+    \item Investigated customer-reported and internally detected technical issues by reproducing bugs, inspecting API behavior, analyzing scenario structures, identifying root causes, and providing fixes, workarounds, or implementation guidance.
+    \item Supported global B2B clients through Zendesk by resolving simulation, API, ROS/ROS2, MATLAB/Simulink, and integration-related issues.
+    \item Improved developer-facing documentation for BeamNG.tech API usage, MATLAB/Simulink workflows, tutorials, HIL/DIL material, and integration guidance.
+    \item Converted recurring QA and customer support findings into reusable test cases, documentation improvements, and actionable product feedback to improve developer experience.
+    \item Contributed across BeamNG.tech engineering repositories, including BeamNGpy, API documentation, simulation workflows, QA fixes, tutorials, and integration examples.
+    \item Implemented and validated scenario and mission-loading workflows, including programmatic scenario discovery, scenario loading, vehicle retrieval, sensor attachment, vehicle connection, scripted control, and sensor polling.
+\end{itemize}
+
+\textbf{\color{PrimaryColor}Mechatronics Systems Engineer} \hfill Feb 2020 -- Jul 2021\\
+\textbf{Ideasparq Robotics Sdn Bhd} \hfill On-site
+
+\begin{itemize}
+    \item Developed ROS-based control systems and autonomous navigation solutions for service robots.
+    \item Implemented sensor fusion algorithms and tested robotic platforms using Gazebo, RViz, Docker, and Ubuntu-based robotics workflows.
+    \item Worked on robotic system integration across software, sensors, control logic, simulation, and deployment environments.
+\end{itemize}
+
+\textbf{\color{PrimaryColor}Autonomous Robotics Engineer} \hfill Jun 2019 -- Jan 2020\\
+\textbf{ENDSTRUCT} \hfill On-site
+
+\begin{itemize}
+    \item Developed autonomous navigation and health monitoring systems for GOVTECH mobile robots.
+    \item Worked on mobile robotics software involving navigation, monitoring, and field-oriented robotic system behavior.
+\end{itemize}
+
+\textbf{\color{PrimaryColor}Research Assistant} \hfill Sep 2019 -- Dec 2019\\
+\textbf{Autonomous Vehicle Laboratory}
+
+\begin{itemize}
+    \item Processed 3D LiDAR data for real-time object detection.
+    \item Developed ROS-based middleware for sensor abstraction and autonomous vehicle research workflows.
+\end{itemize}
+
+%====================
+\section*{Selected Technical Contributions}
+
+\begin{itemize}
+    \item BeamNG.tech integration with ROS/ROS2, MATLAB, and Simulink.
+    \item BeamNGpy and API bridge development for real-time simulation control and data access.
+    \item Scenario and mission-loading validation for automated simulation workflows.
+    \item QA automation, regression testing, bug reproduction, and root-cause analysis.
+    \item Customer-facing engineering support for global B2B simulation users.
+    \item Documentation improvements for APIs, tutorials, integration workflows, MATLAB/Simulink, and HIL/DIL material.
+    \item Robotics simulation and integration using ROS, Gazebo, RViz, Docker, and Ubuntu.
+\end{itemize}
+
+%====================
+\section*{Education}
+
+\textbf{\color{PrimaryColor}Bachelor of Engineering in Mechatronics, Robotics, and Automation Engineering} \hfill 2016 -- 2020\\
+UMPSA Universiti Malaysia Pahang Al-Sultan Abdullah
+
+%====================
+\section*{Publication}
+
+\textbf{\color{PrimaryColor}The Flexural Strength Prediction of Porous Cu-Sn-Ti Composites via Artificial Neural Networks}\\
+The 6th International Conference on Robotics Intelligence and Applications, 2018\\
+DOI: 10.1007/978-981-13-8323-6\_34
+
+%====================
+\section*{Courses \& Certifications}
+\begin{itemize}[noitemsep, topsep=5pt]
+    \item Level C1 in English -- Busuu (May 2025)
+    \item Level A1 in German Language -- Busuu (Nov 2024)
+    \item Relational Databases with SQL -- Manara (Nov 2024)
+    \item Data Analysis Basics Using Google Sheets -- Coursera (Oct 2024)
+    \item Foundations of Databases -- Manara (Oct 2024)
+    \item Lua Scripting: Master Complete Lua Programming from Scratch -- Udemy (Nov 2023)
+    \item Data Protection Basic Training (EU) -- Mitarbeiterschule GmbH (Sep 2023)
+    \item Learn ROS2 as a ROS1 Developer and Migrate Your ROS Projects -- Udemy (Nov 2022)
+    \item Level 2: Simulation \& Hardware Implementation for SLAM -- Udemy (Nov 2022)
+    \item Getting Started with Azure DevOps Boards -- Coursera (Oct 2022)
+    \item Command Line in Linux -- Coursera (Sep 2022)
+    \item Arduino Workshop -- Core Electronics (Sep 2022)
+    \item Open-Source Software Development Methods -- The Linux Foundation (Oct 2021)
+    \item Python Scripting for DevOps Specialization -- LearnQuest (Sep 2021)
+    \item Python Scripting: Files, Inheritance, and Databases -- LearnQuest (Sep 2021)
+    \item Web Application Technologies and Django -- University of Michigan (Sep 2021)
+    \item AWS Cloud Technical Essentials -- AWS (Aug 2021)
+    \item DevOps and Build Automation with Python -- LearnQuest (Aug 2021)
+    \item Python Scripting: Dates, Classes, and Collections -- LearnQuest (Aug 2021)
+    \item Configuration Management and the Cloud -- Google (Aug 2021)
+    \item Introduction to Git and GitHub -- Google (Jul 2021)
+    \item Technical Support Fundamentals -- Google (Jul 2021)
+    \item Troubleshooting and Debugging Techniques -- Google (Jul 2021)
+    \item Using Python to Interact with the Operating System -- Google (Jun 2021)
+    \item Crash Course on Python -- Google (May 2021)
+    \item Malaysia Autonomous Vehicle Challenge (MAVeC'19) -- MARii (Nov 2018)
+    \item The International Conference of Robotics Intelligence and Applications (RiTA) 2018 -- KIAST SG (2018)
+    \item Boundless Innovation Week -- HPMM (Aug 2018)
+    \item CAM Computer-Aided Manufacturing Workshop -- The Institution of Engineers, Malaysia (Nov 2017)
+    \item IEM MATLAB Workshop -- The Institution of Engineers, Malaysia (Oct 2017)
+    \item Arduino for Beginners Workshop -- SPARKTECH Team at IIUM (Nov 2016)
+    \item Online Database Class: SCOPUS -- University Malaysia Pahang (Nov 2016)
+\end{itemize}
+
+% \begin{itemize}
+%     \item Level C1 in English -- Busuu, May 2025
+%     \item Level A1 in German Language -- Busuu, Nov 2024
+%     \item Relational Databases with SQL -- Manara, Nov 2024
+%     \item Foundations of Databases -- Manara, Oct 2024
+%     \item Data Analysis Basics Using Google Sheets -- Coursera, Oct 2024
+%     \item Lua Scripting: Master Complete Lua Programming from Scratch -- Udemy, Nov 2023
+%     \item Data Protection Basic Training (EU) -- Mitarbeiterschule GmbH, Sep 2023
+%     \item Learn ROS2 as a ROS1 Developer and Migrate Your ROS Projects -- Udemy, Nov 2022
+%     \item Level 2: Simulation and Hardware Implementation for SLAM -- Udemy, Nov 2022
+%     \item Open-Source Software Development Methods -- The Linux Foundation, Oct 2021
+%     \item Python Scripting for DevOps Specialization -- LearnQuest, Sep 2021
+%     \item Introduction to Git and GitHub -- Google, Jul 2021
+%     \item Technical Support Fundamentals -- Google, Jul 2021
+%     \item Troubleshooting and Debugging Techniques -- Google, Jul 2021
+%     \item Crash Course on Python -- Google, May 2021
+%     \item Malaysia Autonomous Vehicle Challenge, MAVeC'19 -- MARii, Nov 2018
+%     \item The International Conference of Robotics Intelligence and Applications, RiTA 2018 -- KIAST SG, 2018
+% \end{itemize}
+
+%====================
+\section*{Languages}
+
+Arabic: Native or bilingual proficiency\\
+English: Professional working proficiency
+
+\end{document}
