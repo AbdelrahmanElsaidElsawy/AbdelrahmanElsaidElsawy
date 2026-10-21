@@ -432,28 +432,63 @@ footer p {
     background: #1abc9c;
 }
 
-.cv-lang-tag {
-    font-size: .8em;
-    opacity: .8;
+/* Language Switcher
+ * =================================================================== */
+
+.lang-switch {
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    z-index: 1000;
+    display: flex;
+    gap: 4px;
+    padding: 6px 10px;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 30px;
 }
 
-.cv-langs {
-    margin-top: 10px;
-    font-size: .95em;
-    opacity: .9;
-}
-
-.cv-langs .cv-lang {
-    margin: 0 12px;
-}
-
-.cv-langs a {
-    color: #1abc9c;
+.lang-switch a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: .85em;
     font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
 }
 
-.cv-langs a:hover {
-    text-decoration: underline;
+.lang-switch a:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.lang-switch a.active {
+    background: #1abc9c;
+}
+
+.lang-switch img {
+    width: 20px;
+    border-radius: 3px;
+}
+
+@media (max-width: 480px) {
+    .lang-switch {
+        top: 6px;
+        left: 6px;
+        padding: 4px 6px;
+    }
+
+    .lang-switch a {
+        padding: 3px 8px;
+        font-size: .75em;
+    }
+
+    .lang-switch img {
+        width: 16px;
+    }
 }
 
 /* Course List
