@@ -432,6 +432,30 @@ footer p {
     background: #1abc9c;
 }
 
+.cv-lang-tag {
+    font-size: .8em;
+    opacity: .8;
+}
+
+.cv-langs {
+    margin-top: 10px;
+    font-size: .95em;
+    opacity: .9;
+}
+
+.cv-langs .cv-lang {
+    margin: 0 12px;
+}
+
+.cv-langs a {
+    color: #1abc9c;
+    font-weight: 600;
+}
+
+.cv-langs a:hover {
+    text-decoration: underline;
+}
+
 /* Course List
  * =================================================================== */
 

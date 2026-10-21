@@ -6,8 +6,13 @@
 </p>
 
 <p align="center">
-  <a href="https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV.pdf" target="_blank"><img alt="View CV" src="https://img.shields.io/badge/View_CV-1abc9c?style=for-the-badge&logo=book&logoColor=white"/></a>
-  <a href="https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV.pdf" target="_blank"><img alt="Download CV" src="https://img.shields.io/badge/Download_CV-2C2D72?style=for-the-badge&logo=download&logoColor=white"/></a>
+  <a href="https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV.pdf" target="_blank"><img alt="View CV (EN)" src="https://img.shields.io/badge/View_CV_EN-1abc9c?style=for-the-badge&logo=book&logoColor=white"/></a>
+  <a href="https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV.pdf" target="_blank"><img alt="Download CV (EN)" src="https://img.shields.io/badge/Download_CV_EN-2C2D72?style=for-the-badge&logo=download&logoColor=white"/></a>
+</p>
+
+<p align="center">
+  <a href="https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV_DE.pdf" target="_blank"><img alt="Lebenslauf (DE)" src="https://img.shields.io/badge/Lebenslauf_DE-1abc9c?style=for-the-badge&logo=book&logoColor=white"/></a>
+  <a href="https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV_TR.pdf" target="_blank"><img alt="Özgeçmiş (TR)" src="https://img.shields.io/badge/%C3%96zge%C3%A7mi%C5%9F_TR-1abc9c?style=for-the-badge&logo=book&logoColor=white"/></a>
 </p>
 
 ---
