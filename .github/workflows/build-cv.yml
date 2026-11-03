@@ -1,8 +1,9 @@
 name: Build CV
 
-# Recompiles the three CV language sources in cv/ and commits the PDFs back
+# Recompiles the CV sources in cv/ and commits the PDFs back
 # to this branch so GitHub Pages always serves the latest builds:
-#   cv/cv.tex     -> cv/Abdelrahman_Elsaid_Elsawy_CV.pdf      (English)
+#   cv/cv.tex     -> cv/Abdelrahman_Elsaid_Elsawy_CV.pdf      (English, designed)
+#   cv/cv_ats.tex -> cv/Abdelrahman_Elsaid_Elsawy_CV_ATS.pdf  (English, ATS)
 #   cv/cv_de.tex  -> cv/Abdelrahman_Elsaid_Elsawy_CV_DE.pdf   (German)
 #   cv/cv_tr.tex  -> cv/Abdelrahman_Elsaid_Elsawy_CV_TR.pdf   (Turkish)
 
@@ -22,10 +23,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Compile CV (EN)
+      - name: Compile CV (EN designed)
         uses: xu-cheng/latex-action@v3
         with:
           root_file: cv/cv.tex
+
+      - name: Compile CV (EN ATS)
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv/cv_ats.tex
 
       - name: Compile CV (DE)
         uses: xu-cheng/latex-action@v3
@@ -40,12 +46,17 @@ jobs:
       - name: Publish PDFs
         run: |
           set -e
-          mv "$(find . -name cv.pdf -print -quit)"     cv/Abdelrahman_Elsaid_Elsawy_CV.pdf
-          mv "$(find . -name cv_de.pdf -print -quit)"  cv/Abdelrahman_Elsaid_Elsawy_CV_DE.pdf
-          mv "$(find . -name cv_tr.pdf -print -quit)"  cv/Abdelrahman_Elsaid_Elsawy_CV_TR.pdf
+          mv "$(find . -name cv.pdf -print -quit)"      cv/Abdelrahman_Elsaid_Elsawy_CV.pdf
+          mv "$(find . -name cv_ats.pdf -print -quit)"  cv/Abdelrahman_Elsaid_Elsawy_CV_ATS.pdf
+          mv "$(find . -name cv_de.pdf -print -quit)"   cv/Abdelrahman_Elsaid_Elsawy_CV_DE.pdf
+          mv "$(find . -name cv_tr.pdf -print -quit)"   cv/Abdelrahman_Elsaid_Elsawy_CV_TR.pdf
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add cv/Abdelrahman_Elsaid_Elsawy_CV.pdf cv/Abdelrahman_Elsaid_Elsawy_CV_DE.pdf cv/Abdelrahman_Elsaid_Elsawy_CV_TR.pdf
+          git add \
+            cv/Abdelrahman_Elsaid_Elsawy_CV.pdf \
+            cv/Abdelrahman_Elsaid_Elsawy_CV_ATS.pdf \
+            cv/Abdelrahman_Elsaid_Elsawy_CV_DE.pdf \
+            cv/Abdelrahman_Elsaid_Elsawy_CV_TR.pdf
           if git diff --staged --quiet; then
             echo "PDFs unchanged"
           else
