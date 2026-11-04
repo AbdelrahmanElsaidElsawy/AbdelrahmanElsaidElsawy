@@ -10,7 +10,8 @@
 \usepackage{xcolor}
 \usepackage[nolinks]{qrcode}
 
-\setmainlanguage{arabic}
+% maghrib = Western digits; Eastern digits break qrcode csnames (\F@twotothe@٠).
+\setmainlanguage[numerals=maghrib]{arabic}
 \setotherlanguage{english}
 
 \newfontfamily\arabicfont[Script=Arabic,Scale=1.05]{Amiri}

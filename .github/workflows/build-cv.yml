@@ -62,18 +62,21 @@ jobs:
           root_file: cv/cv_ats_fr.tex
 
       - name: Compile CV (AR designed)
+        continue-on-error: true
         uses: xu-cheng/latex-action@v3
         with:
           root_file: cv/cv_ar.tex
           latexmk_use_xelatex: true
 
       - name: Compile CV (AR ATS)
+        continue-on-error: true
         uses: xu-cheng/latex-action@v3
         with:
           root_file: cv/cv_ats_ar.tex
           latexmk_use_xelatex: true
 
       - name: Publish PDFs
+        if: always()
         run: |
           set -e
           publish() {
