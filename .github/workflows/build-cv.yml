@@ -76,29 +76,29 @@ jobs:
       - name: Publish PDFs
         run: |
           set -e
-          mv "$(find . -name cv.pdf -print -quit)"         cv/Abdelrahman_Elsaid_Elsawy_CV.pdf
-          mv "$(find . -name cv_ats.pdf -print -quit)"     cv/Abdelrahman_Elsaid_Elsawy_CV_ATS.pdf
-          mv "$(find . -name cv_de.pdf -print -quit)"      cv/Abdelrahman_Elsaid_Elsawy_CV_DE.pdf
-          mv "$(find . -name cv_ats_de.pdf -print -quit)"  cv/Abdelrahman_Elsaid_Elsawy_CV_DE_ATS.pdf
-          mv "$(find . -name cv_tr.pdf -print -quit)"      cv/Abdelrahman_Elsaid_Elsawy_CV_TR.pdf
-          mv "$(find . -name cv_ats_tr.pdf -print -quit)"  cv/Abdelrahman_Elsaid_Elsawy_CV_TR_ATS.pdf
-          mv "$(find . -name cv_fr.pdf -print -quit)"      cv/Abdelrahman_Elsaid_Elsawy_CV_FR.pdf
-          mv "$(find . -name cv_ats_fr.pdf -print -quit)"  cv/Abdelrahman_Elsaid_Elsawy_CV_FR_ATS.pdf
-          mv "$(find . -name cv_ar.pdf -print -quit)"      cv/Abdelrahman_Elsaid_Elsawy_CV_AR.pdf
-          mv "$(find . -name cv_ats_ar.pdf -print -quit)"  cv/Abdelrahman_Elsaid_Elsawy_CV_AR_ATS.pdf
+          publish() {
+            local found
+            found="$(find . -name "$1" -print -quit || true)"
+            if [ -n "$found" ]; then
+              mv "$found" "cv/$2"
+              echo "Published cv/$2"
+            else
+              echo "Missing $1 — skipped"
+            fi
+          }
+          publish cv.pdf        Abdelrahman_Elsaid_Elsawy_CV.pdf
+          publish cv_ats.pdf    Abdelrahman_Elsaid_Elsawy_CV_ATS.pdf
+          publish cv_de.pdf     Abdelrahman_Elsaid_Elsawy_CV_DE.pdf
+          publish cv_ats_de.pdf Abdelrahman_Elsaid_Elsawy_CV_DE_ATS.pdf
+          publish cv_tr.pdf     Abdelrahman_Elsaid_Elsawy_CV_TR.pdf
+          publish cv_ats_tr.pdf Abdelrahman_Elsaid_Elsawy_CV_TR_ATS.pdf
+          publish cv_fr.pdf     Abdelrahman_Elsaid_Elsawy_CV_FR.pdf
+          publish cv_ats_fr.pdf Abdelrahman_Elsaid_Elsawy_CV_FR_ATS.pdf
+          publish cv_ar.pdf     Abdelrahman_Elsaid_Elsawy_CV_AR.pdf
+          publish cv_ats_ar.pdf Abdelrahman_Elsaid_Elsawy_CV_AR_ATS.pdf
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add \
-            cv/Abdelrahman_Elsaid_Elsawy_CV.pdf \
-            cv/Abdelrahman_Elsaid_Elsawy_CV_ATS.pdf \
-            cv/Abdelrahman_Elsaid_Elsawy_CV_DE.pdf \
-            cv/Abdelrahman_Elsaid_Elsawy_CV_DE_ATS.pdf \
-            cv/Abdelrahman_Elsaid_Elsawy_CV_TR.pdf \
-            cv/Abdelrahman_Elsaid_Elsawy_CV_TR_ATS.pdf \
-            cv/Abdelrahman_Elsaid_Elsawy_CV_FR.pdf \
-            cv/Abdelrahman_Elsaid_Elsawy_CV_FR_ATS.pdf \
-            cv/Abdelrahman_Elsaid_Elsawy_CV_AR.pdf \
-            cv/Abdelrahman_Elsaid_Elsawy_CV_AR_ATS.pdf
+          git add cv/*.pdf
           if git diff --staged --quiet; then
             echo "PDFs unchanged"
           else
