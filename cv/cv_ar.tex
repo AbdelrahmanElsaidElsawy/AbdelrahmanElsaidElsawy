@@ -43,6 +43,9 @@
 
 \newcommand{\en}[1]{\textenglish{#1}}
 
+% \qrcode inside \href breaks under polyglossia Arabic (\endcsname).
+\newsavebox{\websiteqr}
+
 \begin{document}
 
 %====================
@@ -50,7 +53,7 @@
 %====================
 
 \begin{minipage}[t]{0.78\textwidth}
-    {\LARGE \textbf{\color{PrimaryColor}عبد الرحمن السيد الصاوي}}\\
+    {\LARGE \textbf{\color{PrimaryColor}عبدالرحمن السعيد الصاوي}}\\
     {\color{SecondaryColor}مهندس روبوتات ومحاكاة مركبات}\\
     \en{ROS/ROS2} \textbar{} \en{BeamNG.tech} \textbar{} تكامل المحاكاة \textbar{} جسور \en{API} \textbar{} ضمان جودة آلي\\
     البريد الإلكتروني:
@@ -58,15 +61,20 @@
     {\en{abdelrahman.elsaid.elsawy@gmail.com}}\\
     الهاتف/\en{WhatsApp}:
     \href{https://wa.me/905365231899}
-    {\en{+90 536 523 1899}}
+    {\en{+90 536 523 1899}}\\
+    الموقع:
+    \href{https://abdelrahmanelsaidelsawy.github.io/index.html}
+    {\en{abdelrahmanelsaidelsawy.github.io}}\\
+    \en{LinkedIn}:
+    \href{https://www.linkedin.com/in/abdelrahman-elsaid-elsawy}
+    {\en{linkedin.com/in/abdelrahman-elsaid-elsawy}}
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.18\textwidth}
     \begin{english}
     \raggedleft
-    \href{https://www.linkedin.com/in/abdelrahman-elsaid-elsawy}{%
-      \qrcode[height=1.7cm]{https://www.linkedin.com/in/abdelrahman-elsaid-elsawy}%
-    }
+    \sbox{\websiteqr}{\qrcode[height=1.7cm]{https://abdelrahmanelsaidelsawy.github.io/index.html}}%
+    \href{https://abdelrahmanelsaidelsawy.github.io/index.html}{\usebox{\websiteqr}}%
     \end{english}
 \end{minipage}
 
