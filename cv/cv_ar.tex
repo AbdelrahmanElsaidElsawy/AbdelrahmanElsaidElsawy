@@ -23,7 +23,8 @@
 \definecolor{SecondaryColor}{HTML}{4B5563}
 
 \setlength{\parindent}{0pt}
-\setlist[itemize]{leftmargin=*, rightmargin=*, noitemsep, topsep=2pt}
+% Explicit margins: leftmargin=* / rightmargin=* fail under RTL (Missing number).
+\setlist[itemize]{leftmargin=1.2em, rightmargin=0pt, noitemsep, topsep=2pt}
 
 \titleformat{\section}
   {\large\bfseries\color{PrimaryColor}}
