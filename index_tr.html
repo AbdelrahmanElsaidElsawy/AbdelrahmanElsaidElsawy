@@ -36,7 +36,9 @@
     <div class="lang-switch">
         <a href="index.html" title="English"><img alt="EN" src="https://flagcdn.com/w40/gb.png" width="20">EN</a>
         <a href="index_de.html" title="Deutsch"><img alt="DE" src="https://flagcdn.com/w40/de.png" width="20">DE</a>
+        <a href="index_fr.html" title="Français"><img alt="FR" src="https://flagcdn.com/w40/fr.png" width="20">FR</a>
         <a class="active" href="index_tr.html" title="Türkçe"><img alt="TR" src="https://flagcdn.com/w40/tr.png" width="20">TR</a>
+        <a href="index_ar.html" title="العربية"><img alt="AR" src="https://flagcdn.com/w40/eg.png" width="20">AR</a>
     </div>
 
     <!-- INTRO SECTION -->
@@ -77,9 +79,10 @@
                 </div><!-- /row -->
 
                 <div class="row">
-                    <div class="col-md-12 cv-buttons">
+                                        <div class="col-md-12 cv-buttons">
                         <a class="cv-btn cv-btn-solid" href="cv/Abdelrahman_Elsaid_Elsawy_CV_TR.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Özgeçmişi Görüntüle</a>
                         <a class="cv-btn" href="cv/Abdelrahman_Elsaid_Elsawy_CV_TR.pdf" download><i class="fa fa-download"></i> Özgeçmişi İndir</a>
+                        <a class="cv-btn" href="cv/Abdelrahman_Elsaid_Elsawy_CV_TR_ATS.pdf" download><i class="fa fa-download"></i> ATS Özgeçmiş İndir</a>
                     </div>
                 </div><!-- /row -->
 
@@ -126,87 +129,143 @@
             </div><!-- / row -->
         </div><!-- /container -->
     </section>
-    <!-- SKILLS SECTION -->
-
+        <!-- SKILLS SECTION -->
 
     <section class="section-image" id="skills">
         <div class="img-overlay"></div>
-
         <div class="container">
             <div class="row">
                 <div class="col-md-12 section-heading">
                     <h2>Yetkinlikler</h2>
-
-                    <p class="lead">Katkım olan alanlar</p>
-
+                    <p class="lead">Günlük kullandığım teknik beceriler</p>
                     <hr>
                 </div>
             </div>
-
             <div class="row">
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center skill-card">
                     <span class="lnr lnr-code"></span>
-
-                    <h2>Yazılım Geliştirme</h2>
-
-                    <p>C++, Python ve Lua günlük araçlarım; bunlara XML/JSON,
-                    Git ve modern geliştirme iş akışları eşlik ediyor. Linux
-                    ve Windows için API'ler, köprüler ve otomasyonlar
-                    yazıyorum.</p>
+                    <h2>Programlama</h2>
+                    <p>Linux ve Windows üzerinde API, köprü, otomasyon ve araçlar için günlük diller.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Lua</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Bash</span>
+                    </div>
                 </div>
-
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center skill-card">
                     <span class="lnr lnr-cog"></span>
-
                     <h2>Robotik ve Otonomi</h2>
-
-                    <p>ROS1/ROS2, SLAM, TF2, sensör füzyonu ve otonom
-                    navigasyon — teslimat robotlarından otonom araç araştırma
-                    platformlarına.</p>
+                    <p>Mobil ve servis robotları için ROS tabanlı kontrol, navigasyon ve algılama.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">ROS</span>
+                        <span class="skill-tag">ROS2</span>
+                        <span class="skill-tag">SLAM</span>
+                        <span class="skill-tag">MoveIt</span>
+                        <span class="skill-tag">Gazebo</span>
+                        <span class="skill-tag">RViz</span>
+                        <span class="skill-tag">Sensör füzyonu</span>
+                        <span class="skill-tag">Otonom navigasyon</span>
+                    </div>
                 </div>
-
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center skill-card">
                     <span class="lnr lnr-car"></span>
-
                     <h2>Araç Simülasyonu</h2>
-
-                    <p>BeamNG.tech: sanal sensörler, ROS2/MATLAB/Simulink
-                    entegrasyonu, BeamNGpy ve ADAS ile otonom sürüş
-                    geliştirmesi için kapalı döngü testler.</p>
+                    <p>ADAS ve otonom sürüş iş akışları için yüksek sadakatli simülasyon.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">BeamNG.tech</span>
+                        <span class="skill-tag">BeamNGpy</span>
+                        <span class="skill-tag">Sanal sensörler</span>
+                        <span class="skill-tag">Kapalı döngü testleri</span>
+                        <span class="skill-tag">Senaryo iş akışları</span>
+                    </div>
                 </div>
-            </div> <!-- / row -->
-
+            </div>
             <div class="row">
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-center skill-card">
                     <span class="lnr lnr-rocket"></span>
-
+                    <h2>Entegrasyon</h2>
+                    <p>Gerçek zamanlı simülasyon ve veri toplama için API köprüleri ve araç zinciri bağlantıları.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">API köprüleri</span>
+                        <span class="skill-tag">MATLAB</span>
+                        <span class="skill-tag">Simulink</span>
+                        <span class="skill-tag">Gerçek zamanlı simülasyon</span>
+                        <span class="skill-tag">Veri toplama</span>
+                        <span class="skill-tag">HIL/DIL</span>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center skill-card">
+                    <span class="lnr lnr-checkmark-circle"></span>
+                    <h2>Test ve QA</h2>
+                    <p>Otomatik QA, regresyon analizi ve müşteri sorunlarının araştırılması.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Otomatik QA</span>
+                        <span class="skill-tag">Regresyon testi</span>
+                        <span class="skill-tag">Hata yeniden üretimi</span>
+                        <span class="skill-tag">Hata ayıklama</span>
+                        <span class="skill-tag">Kök neden analizi</span>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center skill-card">
+                    <span class="lnr lnr-laptop-phone"></span>
                     <h2>Araçlar ve Platformlar</h2>
-
-                    <p>Geliştirme, test ve teslim için Gazebo, RViz, Docker,
-                    MATLAB/Simulink, Blender, Catia ve Azure/AWS/DevOps
-                    yığını.</p>
+                    <p>Simülasyon ve robotik için geliştirme, dağıtım ve destek araçları.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Ubuntu</span>
+                        <span class="skill-tag">Zendesk</span>
+                        <span class="skill-tag">Teknik dokümantasyon</span>
+                        <span class="skill-tag">LiDAR</span>
+                        <span class="skill-tag">IMU</span>
+                        <span class="skill-tag">Arduino</span>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="col-md-4 text-center">
-                    <span class="lnr lnr-eye"></span>
+    <!-- LANGUAGES SECTION -->
 
-                    <h2>Sensör ve Donanım</h2>
-
-                    <p>LiDAR, IMU ve ultrasonik sensörler; Arduino, ESP32 ve
-                    Raspberry Pi; SPI/UART, PCB tasarımı, lehimleme ve
-                    prototipleme.</p>
-                </div>
-
-                <div class="col-md-4 text-center">
-                    <span class="lnr lnr-earth"></span>
-
+    <section class="section-primary" id="languages">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-heading">
                     <h2>Diller</h2>
-
-                    <p>Arapça (anadil), İngilizce (mesleki), Türkçe (temel),
-                    Almanca (temel) ve Malayca (sınırlı).</p>
+                    <p class="lead">Konuşulan ve çalışma dilleri</p>
+                    <hr>
                 </div>
-            </div> <!-- / row -->
-        </div><!-- /container -->
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="lang-list">
+                    <div class="lang-item">
+                        <strong>Arapça</strong>
+                        <span>Ana dil veya iki dilli</span>
+                    </div>
+                    <div class="lang-item">
+                        <strong>İngilizce</strong>
+                        <span>Profesyonel çalışma yeterliliği</span>
+                    </div>
+                    <div class="lang-item">
+                        <strong>Türkçe</strong>
+                        <span>Temel yeterlilik</span>
+                    </div>
+                    <div class="lang-item">
+                        <strong>Almanca</strong>
+                        <span>Temel yeterlilik</span>
+                    </div>
+                    <div class="lang-item">
+                        <strong>Malayca</strong>
+                        <span>Sınırlı çalışma yeterliliği</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- COURSES & CERTIFICATIONS SECTION -->
 
@@ -268,148 +327,114 @@
             </div><!-- / row -->
         </div><!-- /container -->
     </section>
-    <!-- TIMELINE SECTION -->
-
+        <!-- TIMELINE SECTION -->
 
     <section class="section-primary" id="timelinesection">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 section-heading">
                     <h2>Deneyim</h2>
-
-                    <p class="lead">Nerede çalıştım, neler yaptım</p>
-
+                    <p class="lead">Nerede çalıştım ve ne yaptım</p>
                     <hr class="white">
                 </div>
             </div>
-
-
             <div class="row">
                 <div class="col-md-12">
-                    <!-- Timeline -->
-
-
                     <div id="timeline">
                         <div class="timeline-item">
                             <div class="timeline-icon">
                                 <i class="fa fa-rocket"></i>
                             </div>
-
                             <div class="timeline-content right">
                                 <h2>Research Software Engineer — BeamNG GmbH</h2>
-
-                                <p><span>Uzaktan · Kas 2021 – Günümüz</span></p>
-                                <p>Mühendislik simülasyon platformu
-                                <span>BeamNG.tech</span> üzerinde çalışma:
-                                ROS/ROS2, MATLAB ve Simulink entegrasyonu,
-                                gerçek zamanlı simülasyon ve otomasyon için
-                                API köprüleri, C++, Python ve Lua ile QA ve
-                                teknik müşteri desteği.</p>
+                                <p><span>Uzaktan · İstanbul, Türkiye · Kas 2021 – Günümüz</span></p>
+                                <p>Mühendislik simülasyon platformu <span>BeamNG.tech</span> üzerinde çalışma: ROS/ROS2, MATLAB ve Simulink entegrasyonu, gerçek zamanlı simülasyon ve otomasyon için API köprüleri, C++, Python ve Lua ile QA ve teknik müşteri desteği.</p>
                             </div>
                         </div>
-                        <!-- /Timeline Item-->
-
                         <div class="timeline-item">
                             <div class="timeline-icon">
                                 <i class="fa fa-cogs"></i>
                             </div>
-
                             <div class="timeline-content left">
                                 <h2>Mechatronics Systems Engineer — Ideasparq Robotics</h2>
-
-                                <p><span>Kuala Lumpur, Malezya · Şub 2020 – Tem 2021</span></p>
-                                <p>Servis robotları için ROS tabanlı kontrol
-                                sistemleri, sensör füzyonu ve otonom navigasyon
-                                geliştirdim; geliştirmede Gazebo, RViz ve
-                                Docker kullandım.</p>
+                                <p><span>Yerinde · Kuala Lumpur, Malezya · Şub 2020 – Tem 2021</span></p>
+                                <p>Servis robotları için ROS tabanlı kontrol sistemleri, sensör füzyonu ve otonom navigasyon geliştirdim; geliştirmede Gazebo, RViz ve Docker kullandım.</p>
                             </div>
                         </div>
-                        <!-- /Timeline Item-->
-
                         <div class="timeline-item">
                             <div class="timeline-icon">
                                 <i class="fa fa-truck"></i>
                             </div>
-
                             <div class="timeline-content right">
                                 <h2>Autonomous Robotics Engineer — ENDSTRUCT</h2>
-
-                                <p><span>GOVTECH sözleşmesi · Haz 2019 – Oca 2020</span></p>
-                                <p>Otonom bir teslimat robotu için ROS
-                                navigasyon sistemi geliştirdim; sensör sağlık
-                                izleme ve sahada arıza teşhisi dahil.</p>
+                                <p><span>Yerinde · Singapur · Haz 2019 – Oca 2020</span></p>
+                                <p>Otonom teslimat robotu (GOVTECH) için ROS navigasyon sistemi geliştirdim; sensör sağlık izleme ve yerinde tanı dahil.</p>
                             </div>
                         </div>
-                        <!-- /Timeline Item-->
-
                         <div class="timeline-item">
                             <div class="timeline-icon">
                                 <i class="fa fa-flask"></i>
                             </div>
-
                             <div class="timeline-content left">
                                 <h2>Research Assistant — Autonomous Vehicle Lab, UMPSA</h2>
-
-                                <p><span>Malezya · Eyl 2019 – Ara 2019</span></p>
-                                <p>3B LiDAR sinyal hattı ve sensörleri araç
-                                platformuna bağlayan ROS ara yazılım katmanı
-                                geliştirdim.</p>
+                                <p><span>Yerinde · Pekan, Malezya · Eyl 2019 – Ara 2019</span></p>
+                                <p>3B LiDAR sinyal hattı ve sensörleri araç platformuna bağlayan ROS ara yazılım katmanını geliştirdim.</p>
                             </div>
                         </div>
-                        <!-- /Timeline Item-->
-
                         <div class="timeline-item">
                             <div class="timeline-icon">
                                 <i class="fa fa-wrench"></i>
                             </div>
-
                             <div class="timeline-content right">
                                 <h2>Mekatronik Stajyeri — Universiti Malaysia Pahang</h2>
-
-                                <p><span>Malezya · Haz 2018 – Eyl 2018</span></p>
-                                <p>TurtleBot3, ROS ve simülasyonla çalıştım —
-                                otonom robotiğe ilk adımlarım.</p>
+                                <p><span>Yerinde · Pekan, Malezya · Haz 2018 – Eyl 2018</span></p>
+                                <p>TurtleBot3, ROS ve simülasyon ile çalıştım — otonom robotikte ilk adımlarım.</p>
                             </div>
                         </div>
-                        <!-- /Timeline Item-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- STUDIES SECTION -->
+
+    <section class="section-primary" id="studies">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-heading">
+                    <h2>Eğitim</h2>
+                    <p class="lead">Öğrenim ve araştırma</p>
+                    <hr class="white">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="timeline-studies">
                         <div class="timeline-item">
                             <div class="timeline-icon">
                                 <i class="fa fa-graduation-cap"></i>
                             </div>
-
                             <div class="timeline-content left">
-                                <h2>B.Eng. Mekatronik Mühendisliği — UMPSA</h2>
-
-                                <p><span>Universiti Malaysia Pahang Al-Sultan Abdullah · 2016 – 2020</span></p>
-                                <p>Robotik, kontrol sistemleri ve otonom
-                                araçlara odaklanarak mekatronik mühendisliği
-                                lisansı.</p>
+                                <h2>B.Eng. Mekatronik, Robotik ve Otomasyon Mühendisliği — UMPSA</h2>
+                                <p><span>Pekan, Malezya · 2016 – 2020</span></p>
+                                <p>Universiti Malaysia Pahang Al-Sultan Abdullah'da robotik, kontrol sistemleri ve otonom araçlar odaklı mühendislik lisans eğitimi.</p>
                             </div>
                         </div>
-                        <!-- /Timeline Item-->
-
                         <div class="timeline-item">
                             <div class="timeline-icon">
                                 <i class="fa fa-book"></i>
                             </div>
-
                             <div class="timeline-content right">
                                 <h2>Yayın — RiTA 2018</h2>
-
-                                <p><span>The Flexural Strength Prediction of Porous Cu-Sn-Ti Composites via ANN</span></p>
-                                <p>Gözenekli Cu-Sn-Ti kompozitlerin eğilme
-                                dayanımını yapay sinir ağlarıyla tahmin eden
-                                hakemli makalenin ortak yazarıyım. <a href="https://link.springer.com/chapter/10.1007/978-981-13-8323-6_34" target="_blank">Springer'da okuyun</a>.</p>
+                                <p><span>Singapur · 2018</span></p>
+                                <p>Ortak yazar: <em>The Flexural Strength Prediction of Porous Cu-Sn-Ti Composites via ANN</em>. <a href="https://link.springer.com/chapter/10.1007/978-981-13-8323-6_34" target="_blank">Springer'da oku</a>.</p>
                             </div>
                         </div>
-                        <!-- /Timeline Item-->
                     </div>
-                    <!-- /col-md-12 -->
                 </div>
-                <!-- /row -->
             </div>
-        </div> <!-- / container -->
+        </div>
     </section>
     <!-- FOOTER SECTION -->
 

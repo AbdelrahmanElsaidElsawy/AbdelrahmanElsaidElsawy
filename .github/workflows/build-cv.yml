@@ -1,10 +1,9 @@
 name: Build CV
 
 # Sole CV source (LaTeX + built PDFs). The website repo syncs PDFs from here.
-#   cv/cv.tex     -> cv/Abdelrahman_Elsaid_Elsawy_CV.pdf      (English, designed)
-#   cv/cv_ats.tex -> cv/Abdelrahman_Elsaid_Elsawy_CV_ATS.pdf  (English, ATS)
-#   cv/cv_de.tex  -> cv/Abdelrahman_Elsaid_Elsawy_CV_DE.pdf   (German)
-#   cv/cv_tr.tex  -> cv/Abdelrahman_Elsaid_Elsawy_CV_TR.pdf   (Turkish)
+# Designed: cv.tex / cv_de.tex / cv_tr.tex / cv_fr.tex / cv_ar.tex
+# ATS:      cv_ats.tex / cv_ats_de.tex / cv_ats_tr.tex / cv_ats_fr.tex / cv_ats_ar.tex
+# Arabic uses XeLaTeX (Amiri + polyglossia); others use pdfLaTeX.
 
 on:
   push:
@@ -32,30 +31,74 @@ jobs:
         with:
           root_file: cv/cv_ats.tex
 
-      - name: Compile CV (DE)
+      - name: Compile CV (DE designed)
         uses: xu-cheng/latex-action@v3
         with:
           root_file: cv/cv_de.tex
 
-      - name: Compile CV (TR)
+      - name: Compile CV (DE ATS)
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv/cv_ats_de.tex
+
+      - name: Compile CV (TR designed)
         uses: xu-cheng/latex-action@v3
         with:
           root_file: cv/cv_tr.tex
 
+      - name: Compile CV (TR ATS)
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv/cv_ats_tr.tex
+
+      - name: Compile CV (FR designed)
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv/cv_fr.tex
+
+      - name: Compile CV (FR ATS)
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv/cv_ats_fr.tex
+
+      - name: Compile CV (AR designed)
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv/cv_ar.tex
+          latexmk_use_xelatex: true
+
+      - name: Compile CV (AR ATS)
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv/cv_ats_ar.tex
+          latexmk_use_xelatex: true
+
       - name: Publish PDFs
         run: |
           set -e
-          mv "$(find . -name cv.pdf -print -quit)"      cv/Abdelrahman_Elsaid_Elsawy_CV.pdf
-          mv "$(find . -name cv_ats.pdf -print -quit)"  cv/Abdelrahman_Elsaid_Elsawy_CV_ATS.pdf
-          mv "$(find . -name cv_de.pdf -print -quit)"   cv/Abdelrahman_Elsaid_Elsawy_CV_DE.pdf
-          mv "$(find . -name cv_tr.pdf -print -quit)"   cv/Abdelrahman_Elsaid_Elsawy_CV_TR.pdf
+          mv "$(find . -name cv.pdf -print -quit)"         cv/Abdelrahman_Elsaid_Elsawy_CV.pdf
+          mv "$(find . -name cv_ats.pdf -print -quit)"     cv/Abdelrahman_Elsaid_Elsawy_CV_ATS.pdf
+          mv "$(find . -name cv_de.pdf -print -quit)"      cv/Abdelrahman_Elsaid_Elsawy_CV_DE.pdf
+          mv "$(find . -name cv_ats_de.pdf -print -quit)"  cv/Abdelrahman_Elsaid_Elsawy_CV_DE_ATS.pdf
+          mv "$(find . -name cv_tr.pdf -print -quit)"      cv/Abdelrahman_Elsaid_Elsawy_CV_TR.pdf
+          mv "$(find . -name cv_ats_tr.pdf -print -quit)"  cv/Abdelrahman_Elsaid_Elsawy_CV_TR_ATS.pdf
+          mv "$(find . -name cv_fr.pdf -print -quit)"      cv/Abdelrahman_Elsaid_Elsawy_CV_FR.pdf
+          mv "$(find . -name cv_ats_fr.pdf -print -quit)"  cv/Abdelrahman_Elsaid_Elsawy_CV_FR_ATS.pdf
+          mv "$(find . -name cv_ar.pdf -print -quit)"      cv/Abdelrahman_Elsaid_Elsawy_CV_AR.pdf
+          mv "$(find . -name cv_ats_ar.pdf -print -quit)"  cv/Abdelrahman_Elsaid_Elsawy_CV_AR_ATS.pdf
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
             cv/Abdelrahman_Elsaid_Elsawy_CV.pdf \
             cv/Abdelrahman_Elsaid_Elsawy_CV_ATS.pdf \
             cv/Abdelrahman_Elsaid_Elsawy_CV_DE.pdf \
-            cv/Abdelrahman_Elsaid_Elsawy_CV_TR.pdf
+            cv/Abdelrahman_Elsaid_Elsawy_CV_DE_ATS.pdf \
+            cv/Abdelrahman_Elsaid_Elsawy_CV_TR.pdf \
+            cv/Abdelrahman_Elsaid_Elsawy_CV_TR_ATS.pdf \
+            cv/Abdelrahman_Elsaid_Elsawy_CV_FR.pdf \
+            cv/Abdelrahman_Elsaid_Elsawy_CV_FR_ATS.pdf \
+            cv/Abdelrahman_Elsaid_Elsawy_CV_AR.pdf \
+            cv/Abdelrahman_Elsaid_Elsawy_CV_AR_ATS.pdf
           if git diff --staged --quiet; then
             echo "PDFs unchanged"
           else

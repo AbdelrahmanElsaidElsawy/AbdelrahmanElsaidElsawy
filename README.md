@@ -13,7 +13,9 @@
 
 <p align="center">
   <a href="https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV_DE.pdf" target="_blank"><img alt="Lebenslauf (DE)" src="https://img.shields.io/badge/Lebenslauf_DE-1abc9c?style=for-the-badge&logo=book&logoColor=white"/></a>
+  <a href="https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV_FR.pdf" target="_blank"><img alt="CV (FR)" src="https://img.shields.io/badge/CV_FR-1abc9c?style=for-the-badge&logo=book&logoColor=white"/></a>
   <a href="https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV_TR.pdf" target="_blank"><img alt="Özgeçmiş (TR)" src="https://img.shields.io/badge/%C3%96zge%C3%A7mi%C5%9F_TR-1abc9c?style=for-the-badge&logo=book&logoColor=white"/></a>
+  <a href="https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV_AR.pdf" target="_blank"><img alt="السيرة (AR)" src="https://img.shields.io/badge/CV_AR-1abc9c?style=for-the-badge&logo=book&logoColor=white"/></a>
 </p>
 
 <p align="center"><sub>CV source of truth: <code>cv/</code> in this repo (website syncs the PDFs).</sub></p>

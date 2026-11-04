@@ -8,7 +8,7 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{titlesec}
 \usepackage{xcolor}
-\usepackage{qrcode}
+\usepackage[nolinks]{qrcode}
 
 %====================
 % Color Theme
@@ -55,8 +55,9 @@
 \hfill
 \begin{minipage}[t]{0.18\textwidth}
     \raggedleft
-    \qrcode[height=1.7cm]{https://www.linkedin.com/in/abdelrahman-elsaid-elsawy}\\
-    {\scriptsize LinkedIn}
+    \href{https://www.linkedin.com/in/abdelrahman-elsaid-elsawy}{%
+      \qrcode[height=1.7cm]{https://www.linkedin.com/in/abdelrahman-elsaid-elsawy}%
+    }
 \end{minipage}
 
 %====================
@@ -182,6 +183,8 @@ DOI:
 \section*{Languages}
 
 Arabic: Native or bilingual proficiency\\
-English: Professional working proficiency
-
+English: Professional working proficiency\\
+Turkish: Elementary proficiency\\
+German: Elementary proficiency\\
+Malay: Limited working proficiency
 \end{document}

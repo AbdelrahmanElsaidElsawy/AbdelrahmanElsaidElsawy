@@ -15,7 +15,7 @@
  * =================================================================== 
  */
 
-header:after, #timeline .timeline-item:after, header:before, #timeline .timeline-item:before {
+header:after, #timeline .timeline-item:after, header:before, #timeline .timeline-item:before, #timeline-studies .timeline-item:after, #timeline-studies .timeline-item:before {
   content: '';
   display: block;
   width: 100%;
@@ -99,9 +99,7 @@ header .social .btn {
   margin: 13px;  
   color:white;
 }
-
-
-#timeline {
+#timeline, #timeline-studies {
   width: 100%;
   margin: 30px auto;
   position: relative;
@@ -111,7 +109,7 @@ header .social .btn {
   -ms-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-#timeline:before {
+#timeline:before, #timeline-studies:before {
   content: "";
   width: 3px;
   height: 100%;
@@ -120,17 +118,17 @@ header .social .btn {
   top: 0;
   position: absolute;
 }
-#timeline:after {
+#timeline:after, #timeline-studies:after {
   content: "";
   clear: both;
   display: table;
   width: 100%;
 }
-#timeline .timeline-item {
+#timeline .timeline-item, #timeline-studies .timeline-item {
   margin-bottom: 50px;
   position: relative;
 }
-#timeline .timeline-item .timeline-icon {
+#timeline .timeline-item .timeline-icon, #timeline-studies .timeline-item .timeline-icon {
   background: #1abc9c;
   width: 50px;
   height: 50px;
@@ -144,12 +142,12 @@ header .social .btn {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-#timeline .timeline-item .timeline-icon svg {
+#timeline .timeline-item .timeline-icon svg, #timeline-studies .timeline-item .timeline-icon svg {
   position: relative;
   top: 14px;
   left: 14px;
 }
-#timeline .timeline-item .timeline-content {
+#timeline .timeline-item .timeline-content, #timeline-studies .timeline-item .timeline-content {
   width: 45%;
   background: #fff;
   padding: 20px;
@@ -166,7 +164,7 @@ header .social .btn {
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-#timeline .timeline-item .timeline-content h2 {
+#timeline .timeline-item .timeline-content h2, #timeline-studies .timeline-item .timeline-content h2 {
   padding: 15px;
   background: #1abc9c;
   color: #fff;
@@ -177,12 +175,10 @@ header .social .btn {
   -ms-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
 }
-
-#timeline .timeline-item .timeline-content p {
+#timeline .timeline-item .timeline-content p, #timeline-studies .timeline-item .timeline-content p {
   padding-top: 15px;
 }
-
-#timeline .timeline-item .timeline-content:before {
+#timeline .timeline-item .timeline-content:before, #timeline-studies .timeline-item .timeline-content:before {
   content: '';
   position: absolute;
   left: 45%;
@@ -193,10 +189,10 @@ header .social .btn {
   border-bottom: 7px solid transparent;
   border-left: 7px solid #1abc9c;
 }
-#timeline .timeline-item .timeline-content.right {
+#timeline .timeline-item .timeline-content.right, #timeline-studies .timeline-item .timeline-content.right {
   float: right;
 }
-#timeline .timeline-item .timeline-content.right:before {
+#timeline .timeline-item .timeline-content.right:before, #timeline-studies .timeline-item .timeline-content.right:before {
   content: '';
   right: 45%;
   left: inherit;
@@ -205,26 +201,25 @@ header .social .btn {
 }
 
 
-@media screen and (max-width: 768px) {
-  #timeline {
+@media screen and (max-width: 768px) {#timeline, #timeline-studies {
     margin: 30px;
     padding: 0px;
     width: 90%;
   }
-  #timeline:before {
+#timeline:before, #timeline-studies:before {
     left: 0;
   }
-  #timeline .timeline-item .timeline-content {
+#timeline .timeline-item .timeline-content, #timeline-studies .timeline-item .timeline-content {
     width: 90%;
     float: right;
   }
-  #timeline .timeline-item .timeline-content:before, #timeline .timeline-item .timeline-content.right:before {
+#timeline .timeline-item .timeline-content:before, #timeline .timeline-item .timeline-content.right:before, #timeline-studies .timeline-item .timeline-content:before, #timeline-studies .timeline-item .timeline-content.right:before {
     left: 10%;
     margin-left: -6px;
     border-left: 0;
     border-right: 7px solid #1abc9c;
   }
-  #timeline .timeline-item .timeline-icon {
+#timeline .timeline-item .timeline-icon, #timeline-studies .timeline-item .timeline-icon {
     left: 0;
   }
 }
