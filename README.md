@@ -16,6 +16,8 @@
   <a href="https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV_TR.pdf" target="_blank"><img alt="Özgeçmiş (TR)" src="https://img.shields.io/badge/%C3%96zge%C3%A7mi%C5%9F_TR-1abc9c?style=for-the-badge&logo=book&logoColor=white"/></a>
 </p>
 
+<p align="center"><sub>CV source of truth: <code>cv/</code> in this repo (website syncs the PDFs).</sub></p>
+
 ---
 
 ## 📌 About Me

@@ -1,7 +1,6 @@
 name: Build CV
 
-# Recompiles the CV sources in cv/ and commits the PDFs back
-# to this branch so GitHub Pages always serves the latest builds:
+# Sole CV source (LaTeX + built PDFs). The website repo syncs PDFs from here.
 #   cv/cv.tex     -> cv/Abdelrahman_Elsaid_Elsawy_CV.pdf      (English, designed)
 #   cv/cv_ats.tex -> cv/Abdelrahman_Elsaid_Elsawy_CV_ATS.pdf  (English, ATS)
 #   cv/cv_de.tex  -> cv/Abdelrahman_Elsaid_Elsawy_CV_DE.pdf   (German)
