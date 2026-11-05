@@ -9,6 +9,7 @@
 \usepackage{titlesec}
 \usepackage{xcolor}
 \usepackage[nolinks]{qrcode}
+\usepackage{graphicx}
 
 % maghrib = Western digits; Eastern digits break qrcode csnames (\F@twotothe@٠).
 \setmainlanguage[numerals=maghrib]{arabic}
@@ -52,10 +53,10 @@
 % Header with QR
 %====================
 
-\begin{minipage}[t]{0.78\textwidth}
+\begin{minipage}[t]{0.74\textwidth}
     {\LARGE \textbf{\color{PrimaryColor}عبدالرحمن السعيد الصاوي}}\\
-    {\color{SecondaryColor}مهندس روبوتات ومحاكاة مركبات}\\
-    \en{ROS/ROS2} \textbar{} \en{BeamNG.tech} \textbar{} تكامل المحاكاة \textbar{} جسور \en{API} \textbar{} ضمان جودة آلي\\
+    {\color{SecondaryColor}مهندس تكامل المحاكاة للروبوتات والأنظمة الذاتية}\\
+    \en{ROS/ROS2} \textbar{} \en{BeamNG.tech} \textbar{} \en{API Bridges} \textbar{} \en{QA Automation} \textbar{} \en{B2B Technical Solutions}\\
     البريد الإلكتروني:
     \href{mailto:abdelrahman.elsaid.elsawy@gmail.com}
     {\en{abdelrahman.elsaid.elsawy@gmail.com}}\\
@@ -76,11 +77,12 @@
     {\en{linktr.ee/abdelrahman\_elsaid\_elsawy}}
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.18\textwidth}
+\begin{minipage}[t]{0.20\textwidth}
     \begin{english}
     \raggedleft
-    \sbox{\websiteqr}{\qrcode[height=1.7cm]{https://abdelrahmanelsaidelsawy.github.io/index.html}}%
-    \href{https://abdelrahmanelsaidelsawy.github.io/index.html}{\usebox{\websiteqr}}%
+    \includegraphics[width=0.92\linewidth]{cv/profile.jpg}\\[6pt]
+    \sbox{\websiteqr}{\qrcode[height=1.5cm]{https://www.linkedin.com/in/abdelrahman-elsaid-elsawy}}%
+    \href{https://www.linkedin.com/in/abdelrahman-elsaid-elsawy}{\usebox{\websiteqr}}%
     \end{english}
 \end{minipage}
 
@@ -150,6 +152,15 @@
     \item دعم تقني لمستخدمي \en{B2B} العالميين عبر \en{Zendesk} والمنتديات التقنية.
     \item توثيق وأمثلة تكامل لواجهات البرمجة وسير عمل المحاكاة و\en{MATLAB/Simulink} ومواد \en{HIL/DIL}.
     \item تكامل أنظمة روبوتات باستخدام \en{ROS} و\en{Gazebo} و\en{RViz} و\en{Docker} و\en{Ubuntu}.
+\end{itemize}
+
+\section*{وسائط مميزة}
+
+\begin{itemize}
+    \item \en{BeamNG.tech} مع \en{Autoware} لأبحاث القيادة الذاتية (\en{IEEE IV 2025} — \en{Gifu University / Autoware Foundation}).
+    \item عروض إدراك للسباقات الذاتية على \en{BeamNG.tech} (\en{e-Tech Racing}).
+    \item أبرز تعاون \en{BeamNG} مع \en{NVIDIA} ومنظومة المحاكاة.
+    \item الملف والوسائط على \en{LinkedIn}: \href{https://www.linkedin.com/in/abdelrahman-elsaid-elsawy}{\en{linkedin.com/in/abdelrahman-elsaid-elsawy}}
 \end{itemize}
 
 \section*{التعليم}
