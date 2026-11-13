@@ -9,7 +9,6 @@
 \usepackage{titlesec}
 \usepackage{xcolor}
 \usepackage[nolinks]{qrcode}
-\usepackage{graphicx}
 
 % maghrib = Western digits; Eastern digits break qrcode csnames (\F@twotothe@٠).
 \setmainlanguage[numerals=maghrib]{arabic}
@@ -80,7 +79,6 @@
 \begin{minipage}[t]{0.20\textwidth}
     \begin{english}
     \raggedleft
-    \includegraphics[width=0.92\linewidth]{cv/profile.jpg}\\[6pt]
     \sbox{\websiteqr}{\qrcode[height=1.5cm]{https://www.linkedin.com/in/abdelrahman-elsaid-elsawy}}%
     \href{https://www.linkedin.com/in/abdelrahman-elsaid-elsawy}{\usebox{\websiteqr}}%
     \end{english}

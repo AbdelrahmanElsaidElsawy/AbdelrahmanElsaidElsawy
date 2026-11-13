@@ -20,6 +20,6 @@ syncs only the PDFs — do not keep a second copy of the LaTeX there.
 | `cv_ar.tex` | Arabic designed (XeLaTeX) | `Abdelrahman_Elsaid_Elsawy_CV_AR.pdf` |
 | `cv_ats_ar.tex` | Arabic ATS (XeLaTeX) | `Abdelrahman_Elsaid_Elsawy_CV_AR_ATS.pdf` |
 
-Designed versions: LinkedIn is the QR only (clickable, no URL text in the header).
-ATS versions keep a plain LinkedIn URL for parsers.
+Designed versions: LinkedIn is the QR only (clickable, no URL text in the header). No photo.
+ATS versions keep a plain LinkedIn URL for parsers (no photo, no QR).
 Arabic CVs compile with XeLaTeX + Amiri.
