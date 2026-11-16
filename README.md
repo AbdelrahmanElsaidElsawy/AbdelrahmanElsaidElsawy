@@ -37,7 +37,7 @@
 ## 🏆 GitHub Trophy Showcase
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AbdelrahmanElsaidElsawy&theme=onedark" alt="Trophies" />
+  <img src="https://trophy.ryglcloud.net/?username=AbdelrahmanElsaidElsawy&theme=onedark" alt="Trophies" />
 </p>
 
 ---
@@ -45,8 +45,8 @@
 ## 💻 GitHub Stats
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=AbdelrahmanElsaidElsawy&count_private=true&theme=buefy&show_icons=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdelrahmanElsaidElsawy&layout=compact&theme=buefy" />
+  <img height="160" src="https://github-stats-extended.vercel.app/api?username=AbdelrahmanElsaidElsawy&count_private=true&theme=buefy&show_icons=true" />
+  <img height="160" src="https://github-stats-extended.vercel.app/api/top-langs/?username=AbdelrahmanElsaidElsawy&layout=compact&theme=buefy" />
 </p>
 
 <p align="center">
