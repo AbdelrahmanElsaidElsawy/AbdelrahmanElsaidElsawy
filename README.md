@@ -125,7 +125,10 @@ UMPSA Universiti Malaysia Pahang Al-Sultan Abdullah (2016 – 2020)
 ## 🧠 Skills
 
 - 💻 Languages: C++, Python, Lua, XML, JSON  
-- 📦 ROS: ROS1, ROS2, SLAM, TF2, Navigation  
+- 📦 ROS: ROS1, ROS2, SLAM, TF2, Navigation
+- 🦾 Robot Arms: MoveIt motion planning, inverse kinematics (IK), real-time joint servoing with MATLAB/Simulink  
+- 🐾 Quadruped Robots: whole-body control (WBC) on dog-like platforms using MATLAB/Simulink  
+- 📷 Machine Vision: camera-based perception, QR-code detection & decoding in MATLAB/Simulink    
 - 🛠️ Tools: Gazebo, RViz, Docker, Git, MATLAB, Simulink  
 - 🛰️ Sensors: LiDAR, IMU, Ultrasonic  
 - 👨‍💻 Hardware: Arduino, ESP32, Raspberry Pi, SPI & UART  
