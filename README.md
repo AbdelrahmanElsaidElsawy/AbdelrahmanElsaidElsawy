@@ -18,6 +18,13 @@
   <a href="https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV_AR.pdf" target="_blank"><img alt="السيرة (AR)" src="https://img.shields.io/badge/CV_AR-1abc9c?style=for-the-badge&logo=book&logoColor=white"/></a>
 </p>
 
+<p align="center">
+  <a href="https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV_DE_ATS.pdf" target="_blank"><img alt="Download ATS CV DE" src="https://img.shields.io/badge/Download_ATS_CV_DE-34495e?style=for-the-badge&logo=download&logoColor=white"/></a>
+  <a href="https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV_FR_ATS.pdf" target="_blank"><img alt="Download ATS CV FR" src="https://img.shields.io/badge/Download_ATS_CV_FR-34495e?style=for-the-badge&logo=download&logoColor=white"/></a>
+  <a href="https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV_TR_ATS.pdf" target="_blank"><img alt="Download ATS CV TR" src="https://img.shields.io/badge/Download_ATS_CV_TR-34495e?style=for-the-badge&logo=download&logoColor=white"/></a>
+  <a href="https://abdelrahmanelsaidelsawy.github.io/cv/Abdelrahman_Elsaid_Elsawy_CV_AR_ATS.pdf" target="_blank"><img alt="Download ATS CV AR" src="https://img.shields.io/badge/Download_ATS_CV_AR-34495e?style=for-the-badge&logo=download&logoColor=white"/></a>
+</p>
+
 <p align="center"><sub>CV source of truth: <code>cv/</code> in this repo (website syncs the PDFs).</sub></p>
 
 ---
